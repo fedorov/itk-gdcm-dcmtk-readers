@@ -14,3 +14,6 @@ target_link_libraries(ReadGDCM ${ITK_LIBRARIES})
 
 add_executable(ReadDCMTK ReadDCMTK.cxx)
 target_link_libraries(ReadDCMTK ${ITK_LIBRARIES})
+
+add_executable(ReadReader ReadReader.cxx)
+target_link_libraries(ReadReader ${ITK_LIBRARIES})
